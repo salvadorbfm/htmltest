@@ -1,2 +1,2 @@
-web: python web.py --log-file -
+web: python -m SimpleHTTPServer $PORT
 
