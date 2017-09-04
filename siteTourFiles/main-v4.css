@@ -1,0 +1,2041 @@
+/*! normalize.css v3.0.1 | MIT License | git.io/normalize */
+
+html {
+	font-family: sans-serif;
+	-ms-text-size-adjust: 100%;
+	-webkit-text-size-adjust: 100%
+}
+body {
+	margin: 0
+}
+article, aside, details, figcaption, figure, footer, header, hgroup, main, nav, section, summary {
+	display: block
+}
+audio, canvas, progress, video {
+	display: inline-block;
+	vertical-align: baseline
+}
+audio:not([controls]) {
+	display: none;
+	height: 0
+}
+[hidden], template {
+	display: none
+}
+a {
+	background: transparent;
+	text-decoration: none
+}
+a:active, a:hover {
+	outline: 0
+}
+.blue-link {
+	text-decoration: none;
+	color: #5fafcb;
+}
+abbr[title] {
+	border-bottom: 1px dotted
+}
+b, strong {
+	font-weight: 400
+}
+dfn {
+	font-style: italic
+}
+h1 {
+	font-size: 2em;
+	margin: 0.67em 0
+}
+mark {
+	background: #ff0;
+	color: #000
+}
+small {
+	font-size: 80%
+}
+sub, sup {
+	font-size: 75%;
+	line-height: 0;
+	position: relative;
+	vertical-align: baseline
+}
+sup {
+	top: -0.5em
+}
+sub {
+	bottom: -0.25em
+}
+img {
+	border: 0
+}
+svg:not(:root) {
+	overflow: hidden
+}
+figure {
+	margin: 1em 40px
+}
+hr {
+	-moz-box-sizing: content-box;
+	box-sizing: content-box;
+	height: 0
+}
+pre {
+	overflow: auto
+}
+code, kbd, pre, samp {
+	font-family: monospace, monospace;
+	font-size: 1em
+}
+button, input, optgroup, select, textarea {
+	color: inherit;
+	font: inherit;
+	margin: 0
+}
+button {
+	overflow: visible
+}
+button, select {
+	text-transform: none
+}
+button, html input[type="button"], input[type="reset"], input[type="submit"] {
+	-webkit-appearance: button;
+	cursor: pointer
+}
+button[disabled], html input[disabled] {
+	cursor: default
+}
+button::-moz-focus-inner, input::-moz-focus-inner {
+	border: 0;
+	padding: 0
+}
+input {
+	line-height: normal
+}
+input[type="checkbox"], input[type="radio"] {
+	box-sizing: border-box;
+	padding: 0
+}
+input[type="number"]::-webkit-inner-spin-button, input[type="number"]::-webkit-outer-spin-button {
+	height: auto
+}
+input[type="search"] {
+	-webkit-appearance: textfield;
+	-moz-box-sizing: content-box;
+	-webkit-box-sizing: content-box;
+	box-sizing: content-box
+}
+input[type="search"]::-webkit-search-cancel-button, input[type="search"]::-webkit-search-decoration {
+	-webkit-appearance: none
+}
+fieldset {
+	border: 1px solid #c0c0c0;
+	margin: 0 2px;
+	padding: 0.35em 0.625em 0.75em
+}
+legend {
+	border: 0;
+	padding: 0
+}
+textarea {
+	overflow: auto
+}
+optgroup {
+	font-weight: 400
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0
+}
+td, th {
+	padding: 0
+}
+hr {
+	display: block;
+	height: 1px;
+	border: 0;
+	border-top: 1px solid #ccc;
+	margin: 1em 0;
+	padding: 0
+}
+audio, canvas, iframe, img, svg, video {
+	vertical-align: middle
+}
+fieldset {
+	border: 0;
+	margin: 0;
+	padding: 0
+}
+textarea {
+	resize: vertical
+}
+.hidden {
+	display: none !important;
+	visibility: hidden
+}
+@media print {
+	*, *:before, *:after {
+		background: transparent !important;
+		color: #000 !important;
+		box-shadow: none !important;
+		text-shadow: none !important
+	}
+	a, a:visited {
+		text-decoration: underline
+	}
+	a[href]:after {
+		content: " (" attr(href) ")"
+	}
+	abbr[title]:after {
+		content: " (" attr(title) ")"
+	}
+	a[href^="#"]:after, a[href^="javascript:"]:after {
+		content: ""
+	}
+	pre, blockquote {
+		border: 1px solid #999;
+		page-break-inside: avoid
+	}
+	thead {
+		display: table-header-group
+	}
+	tr, img {
+		page-break-inside: avoid
+	}
+	img {
+		max-width: 100% !important
+	}
+	p, h2, h3 {
+		orphans: 3;
+		widows: 3
+	}
+	h2, h3 {
+		page-break-after: avoid
+	}
+}
+h1, h2, {
+	font-family: B3GoudyOldStyle, Georgia, serif;
+	font-style: normal;
+	font-weight: 400
+}
+.ie-legacy h1, .ie-legacy h2, .ie-legacy h3 {
+	font-family: Helvetica, Arial, sans-serif !important;
+	font-style: normal
+}
+h4, h5, h6 {
+font-family: Theinhardt, Helvetica, sans-serif;
+	font-style: normal;
+	font-weight: 400;
+	color: #999;
+    font-size: 16px;
+}
+.ie-legacy h4, .ie-legacy h5, .ie-legacy h6 {
+	font-family: Helvetica, Arial, sans-serif !important;
+	font-style: normal
+}
+body {
+	font-family: Theinhardt, Helvetica, sans-serif;
+	font-style: normal;
+	font-weight: 400;
+	background: #FFF;
+	padding-top: 88px
+}
+.ie-legacy body {
+	font-family: Georgia, Times, serif !important;
+	font-style: normal
+}
+.breakpoint-desktop body, .ie-legacy body {
+	padding-top: 0
+}
+body.navigation-open {
+	position: relative;
+	overflow: hidden;
+	height: 100%
+}
+body video, body iframe {
+	max-width: 100%
+}
+.wrapper {
+	margin: 0 auto;
+	padding: 0 10px;
+	position: relative;
+	width: auto
+}
+.wrapper.full-width {
+	padding: 0
+}
+.breakpoint-tablet .wrapper.full-width {
+	padding: 0 10px
+}
+.breakpoint-tablet-small .wrapper {
+	width: 460px
+}
+.breakpoint-tablet .wrapper {
+	width: 620px
+}
+.breakpoint-desktop .wrapper {
+	width: 940px
+}
+.breakpoint-widescreen .wrapper, .ie-legacy .wrapper {
+	width: 1260px
+}
+#header, .section, #footer {
+	position: relative
+}
+#header .mobile {
+	display: block !important
+}
+.breakpoint-desktop #header .mobile, .ie-legacy #header .mobile {
+	display: none !important
+}
+.breakpoint-desktop #header, .ie-legacy #header {
+	z-index: 10
+}
+#masthead {
+	background: #1f3771;
+	position: fixed;
+	top: 0;
+	width: 100%;
+	z-index: 20
+}
+.breakpoint-desktop #masthead, .ie-legacy #masthead {
+	background: #1f3771;
+	position: relative;
+	top: auto;
+	height: auto;
+	z-index: 0
+}
+#masthead .wrapper {
+	height: 58px
+}
+.breakpoint-desktop #masthead .wrapper, .ie-legacy #masthead .wrapper {
+	height: 150px
+}
+#masthead h1 {
+	margin: 0 auto
+}
+#masthead h1 a {
+	display: block;
+	width: 280px;
+	height: 28px;
+	background: url(https://d1ax1i5f2y3x71.cloudfront.net/items/0Z3e1N2m2h08470u092c/Image%202017-08-31%20at%204.19.37%20PM.png) no-repeat -10px -13px;
+	font: 0/0 a;
+	text-shadow: none;
+	color: transparent;
+	position: absolute;
+	top: 20px;
+	left: 48%;
+	margin-left: -110px
+}
+.breakpoint-desktop #masthead h1 a, .ie-legacy #masthead h1 a {
+	width: 517px;
+	height: 46px;
+	/*background: url(spritesheet.png) no-repeat -10px -12px;*/
+	background: url(https://d1ax1i5f2y3x71.cloudfront.net/items/0Z3e1N2m2h08470u092c/Image%202017-08-31%20at%204.19.37%20PM.png) no-repeat 111px 0;
+	margin-left: -258px;
+	top: 87px
+}
+.no-svg #masthead h1 a {
+	background: url(sprite.png) no-repeat -10px -12px
+}
+#masthead .button {
+	background: #FFF;
+	color: #4D4D4D;
+	padding: 12px 15px 11px;
+	font-family: Theinhardt, Helvetica, sans-serif;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 12px;
+	text-transform: uppercase;
+	position: absolute;
+	display: none
+}
+.ie-legacy #masthead .button {
+	font-family: Helvetica, Arial, sans-serif !important;
+	font-style: normal
+}
+.breakpoint-desktop #masthead .button, .ie-legacy #masthead .button {
+	background: #FFF;
+	bottom: 15px;
+	display: block
+}
+.breakpoint-desktop #masthead .button#new-wsj {
+	left: 10px
+}
+.breakpoint-widescreen #masthead .button#new-wsj, .ie-legacy #masthead .button#new-wsj {
+	left: 35px
+}
+
+.breakpoint-desktop #masthead .button#new-wsj2 {
+	right: 10px
+}
+.breakpoint-widescreen #masthead .button#new-wsj2, .ie-legacy #masthead .button#new-wsj2 {
+	right: 35px
+}
+
+#masthead .button#subscribe {
+	color: #FFF
+}
+.breakpoint-tablet #masthead .button#subscribe {
+	display: block;
+	right: 10px;
+	bottom: 10px
+}
+.breakpoint-desktop #masthead .button#subscribe {
+	right: 10px;
+	bottom: 17px
+}
+.breakpoint-widescreen #masthead .button#subscribe, .ie-legacy #masthead .button#subscribe {
+	right: 35px
+}
+#masthead .button:hover {
+	background: #E5E5E5
+}
+.breakpoint-desktop #masthead.fix-top, .ie-legacy #masthead.fix-top {
+	position: fixed;
+	top: 0;
+	height: 58px;
+	width: 100%;
+	z-index: 20
+}
+.breakpoint-desktop #masthead.fix-top .wrapper, .ie-legacy #masthead.fix-top .wrapper {
+	height: 58px
+}
+.breakpoint-desktop #masthead.fix-top h1, .ie-legacy #masthead.fix-top h1 {
+	display: none
+}
+#masthead #nav-toggle {
+	font: 0/0 a;
+	text-shadow: none;
+	color: transparent;
+	width: 38px;
+	height: 38px;
+	display: block;
+	background: url(spritesheet.png) no-repeat -71px -149px;
+	position: absolute;
+	top: 10px;
+	left: 7px
+}
+#masthead #nav-toggle.open {
+	background-position: -38px -149px
+}
+#navigation {
+	display: none;
+	background: #1f3771;
+	z-index: 10;
+	position: fixed;
+	top: 58px;
+	left: 0;
+	height: 100%;
+	width: 100%
+}
+#navigation ul {
+	padding: 0;
+	margin: 0
+}
+#navigation ul li {
+	font-family: Theinhardt, Helvetica, sans-serif;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 14px;
+	text-transform: uppercase;
+	padding-left: 6px;
+	padding-right: 6px;
+	list-style: none;
+	overflow: hidden
+}
+.ie-legacy #navigation ul li {
+	font-family: Helvetica, Arial, sans-serif !important;
+	font-style: normal
+}
+.breakpoint-small-tablet #navigation ul li, .breakpoint-tablet #navigation ul li {
+	padding-left: 29px;
+	padding-right: 29px
+}
+#navigation ul li a {
+	color: #FFF;
+	padding: 16px 0;
+	border-bottom: 1px solid #EAEAEA;
+	display: block
+}
+#navigation ul li a:hover {
+	border-bottom: 1px solid #FFF
+}
+#navigation ul li a.mobile-subscribe {
+	color: #FFF
+}
+.breakpoint-desktop #navigation, .ie-legacy #navigation {
+	background: none;
+	display: block;
+	height: 100%;
+	z-index: 10;
+	position: relative;
+	top: auto;
+	left: auto;
+	width: auto;
+	height: auto
+}
+#navigation.open {
+	visibility: visible;
+	opacity: 1;
+	overflow: scroll;
+	-webkit-overflow-scrolling: touch;
+	-webkit-backface-visibility: hidden
+}
+.breakpoint-desktop #navigation, .ie-legacy #navigation {
+	display: block !important
+}
+.breakpoint-desktop #navigation ul, .ie-legacy #navigation ul {
+	margin: 1em 0;
+	text-align: center;
+	list-style: none
+}
+.breakpoint-desktop #navigation ul li, .ie-legacy #navigation ul li {
+	display: inline;
+	margin: 0 13px;
+	padding: 0;
+	font-size: 14px
+}
+.breakpoint-desktop #navigation ul li a, .ie-legacy #navigation ul li a {
+	color: #4D4D4D;
+	display: inline-block;
+	font-family: Theinhardt, Helvetica, sans-serif;
+	font-style: normal;
+	font-weight: 500;
+	letter-spacing: 1px;
+	padding: 1px 0;
+	text-transform: uppercase;
+	border-bottom: 1px solid transparent
+}
+.ie-legacy .breakpoint-desktop #navigation ul li a, .ie-legacy .ie-legacy #navigation ul li a {
+	font-family: Helvetica, Arial, sans-serif !important;
+	font-style: normal
+}
+.breakpoint-desktop #navigation ul li a:hover, .ie-legacy #navigation ul li a:hover {
+	color: #000;
+	border-bottom: 1px solid #000
+}
+.breakpoint-desktop #navigation.fix-top, .ie-legacy #navigation.fix-top {
+	width: 100%;
+	position: fixed;
+	z-index: 30
+}
+.breakpoint-desktop #navigation.fix-top ul, .ie-legacy #navigation.fix-top ul {
+	transform: none !important
+}
+#fixed-navigation {
+	display: none
+}
+.breakpoint-desktop #fixed-navigation, .ie-legacy #fixed-navigation {
+	background: #1f3771;
+	display: block;
+	z-index: 14;
+	position: fixed;
+	top: -58px;
+	left: 0;
+	width: 100%;
+	height: 58px;
+	-webkit-transform: translateZ(0);
+	-webkit-backface-visibility: hidden;
+	-webkit-transition: -webkit-transform 300ms;
+	-moz-transition: -moz-transform 300ms;
+	-o-transition: -o-transform 300ms;
+	transition: transform 300ms
+}
+.breakpoint-desktop #fixed-navigation ul, .ie-legacy #fixed-navigation ul {
+	margin: 0;
+	padding: 19px 0 0;
+	text-align: center;
+	list-style: none
+}
+.breakpoint-desktop #fixed-navigation ul li, .ie-legacy #fixed-navigation ul li {
+	display: inline;
+	margin: 0 13px
+}
+.breakpoint-desktop #fixed-navigation ul li a, .ie-legacy #fixed-navigation ul li a {
+	color: #FFF;
+	display: inline-block;
+	font-family: Theinhardt, Helvetica, sans-serif;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 14px;
+	letter-spacing: 1px;
+	text-transform: uppercase;
+	border-bottom: 1px solid transparent
+}
+.ie-legacy .breakpoint-desktop #fixed-navigation ul li a, .ie-legacy .ie-legacy #fixed-navigation ul li a {
+	font-family: Helvetica, Arial, sans-serif !important;
+	font-style: normal
+}
+.breakpoint-desktop #fixed-navigation ul li a:hover, .ie-legacy #fixed-navigation ul li a:hover {
+	color: #FFF;
+	border-bottom: 1px solid #FFF
+}
+.breakpoint-desktop #fixed-navigation.show-me, .ie-legacy #fixed-navigation.show-me {
+	-webkit-transform: translateY(58px);
+	-moz-transform: translateY(58px);
+	-ms-transform: translateY(58px);
+	-o-transform: translateY(58px);
+	transform: translateY(58px)
+}
+#fixed-navigation .button {
+	background: #F5F5F5;
+	color: #000;
+	padding: 12px 15px 11px;
+	font-family: Theinhardt, Helvetica, sans-serif;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 12px;
+	text-transform: uppercase;
+	position: absolute;
+	top: 10px
+}
+.ie-legacy #fixed-navigation .button {
+	font-family: Helvetica, Arial, sans-serif !important;
+	font-style: normal
+}
+.breakpoint-desktop #fixed-navigation .button, .ie-legacy #fixed-navigation .button {
+	background: #FFF;
+	display: block
+}
+.breakpoint-desktop #fixed-navigation .button#new-wsj {
+	left: 10px
+}
+.breakpoint-widescreen #fixed-navigation .button#new-wsj, .ie-legacy #fixed-navigation .button#new-wsj {
+	left: 35px
+}
+
+.breakpoint-desktop #fixed-navigation .button#new-wsj2 {
+	right: 10px
+}
+.breakpoint-widescreen #fixed-navigation .button#new-wsj2, .ie-legacy #fixed-navigation .button#new-wsj2 {
+	right: 35px
+}
+#fixed-navigation .button#subscribe {
+	color: #FFF
+}
+.breakpoint-desktop #fixed-navigation .button#subscribe {
+	right: 10px
+}
+.breakpoint-widescreen #fixed-navigation .button#subscribe, .ie-legacy #fixed-navigation .button#subscribe {
+	right: 35px
+}
+#fixed-navigation .button:hover {
+	background: #E5E5E5
+}
+.social {
+	width: 39px;
+	height: 38px;
+	font: 0/0 a;
+	text-shadow: none;
+	color: transparent;
+	display: none;
+	position: absolute
+}
+.no-svg .social {
+	height: 39px
+}
+.social#facebook {
+	background: url(spritesheet.png) no-repeat -181px -133px;
+	right: 156px
+}
+.no-svg .social#facebook {
+	background: url(sprite.png) no-repeat -181px -133px
+}
+.breakpoint-widescreen .social#facebook, .ie-legacy .social#facebook {
+	right: 190px
+}
+.social#facebook:hover {
+	background-position: -181px -193px
+}
+.social#twitter {
+	background: url(spritesheet.png) no-repeat -230px -133px;
+	right: 111px
+}
+.no-svg .social#twitter {
+	background: url(sprite.png) no-repeat -230px -133px
+}
+.breakpoint-widescreen .social#twitter, .ie-legacy .social#twitter {
+	right: 141px
+}
+.social#twitter:hover {
+	background-position: -230px -193px
+}
+.breakpoint-desktop .social, .ie-legacy .social {
+	display: block
+}
+#fixed-navigation .social {
+	top: 10px
+}
+#masthead .social {
+	bottom: 16px
+}
+#navigation .social {
+	bottom: -50px
+}
+#navigation .social#facebook {
+	left: 16px
+}
+.breakpoint-tablet #navigation .social#facebook, .breakpoint-small-tablet #navigation .social#facebook {
+	left: 39px
+}
+#navigation .social#twitter {
+	left: 64px
+}
+.breakpoint-tablet #navigation .social#twitter, .breakpoint-small-tablet #navigation .social#twitter {
+	left: 87px
+}
+.mobile-share {
+	display: block
+}
+.mobile-share .social {
+	display: block
+}
+.breakpoint-desktop .mobile-share, .ie-legacy .mobile-share {
+	display: none
+}
+.breakpoint-desktop .mobile-share .social, .ie-legacy .mobile-share .social {
+	display: none
+}
+#back-to-top {
+	background: url(spritesheet.png) no-repeat -285px -137px;
+	width: 30px;
+	height: 30px;
+	font: 0/0 a;
+	text-shadow: none;
+	color: transparent;
+	display: block;
+	position: absolute;
+	right: 15px;
+	bottom: 12px
+}
+#back-to-top:hover {
+	background-position: -285px -197px
+}
+.breakpoint-tablet #back-to-top {
+	display: none
+}
+hr {
+	margin: 0 auto;
+	border: 0 none;
+	height: 1px;
+	background: #CCC;
+	width: 140px
+}
+
+.dark {
+	background: #FFF;
+	margin-bottom: 0
+}
+.breakpoint-tablet .dark {
+	margin-bottom: 47px
+}
+.breakpoint-tablet .dark.white-band {
+	background: #FFF url("https://s.wsj.net/guidedtour/_images/bg-repeater.svg") repeat-x bottom left
+}
+.no-svg .breakpoint-tablet .dark.white-band {
+	background: #FFF url("https://s.wsj.net/guidedtour/_images/bg-repeater.png") repeat-x bottom left
+}
+.grey {
+	background: #F2F2F2
+}
+.section {
+	text-align: center;
+	margin: 0 auto
+}
+.section-letter {
+	text-align: left;
+	margin: 0 auto
+}
+#welcome-video {
+	margin: -50px auto 0;
+	padding: 100px 0 50px
+}
+.breakpoint-desktop #welcome-video, .ie-legacy #welcome-video {
+	margin: 0 auto 70px;
+	padding: 130px 0 0
+}
+#welcome-video iframe {
+	margin: 0 auto;
+	width: 300px;
+	height: 169px
+}
+.breakpoint-small-tablet #welcome-video iframe {
+	width: 420px;
+	height: 236px
+}
+.breakpoint-tablet #welcome-video iframe {
+	width: 400px;
+	height: 338px
+}
+.breakpoint-desktop #welcome-video iframe, .ie-legacy #welcome-video iframe {
+	width: 680px;
+	height: 383px
+}
+#letter-from-the-editor {
+	padding-top: 90px;
+	margin-top: -90px;
+	padding-bottom: 50px
+}
+.breakpoint-tablet #letter-from-the-editor {
+	padding-bottom: 0
+}
+.breakpoint-desktop #letter-from-the-editor {
+	padding-top: 20px;
+	margin-top: 0;
+	padding-bottom: 50px;
+}
+.ie-legacy #letter-from-the-editor {
+	padding-top: 0;
+	margin-top: 20px
+}
+#letter-from-the-editor h2 {
+	font-family: B3GoudyOldStyle, Georgia, serif;
+	font-style: normal;
+	color: #333;
+	font-size: 28px;
+	font-weight: 400;
+	line-height: 1.07;
+	margin: 0 auto 28px;
+	max-width: 80%;
+}
+.ie-legacy #letter-from-the-editor h2 {
+	font-family: Georgia, Times, serif !important;
+	font-style: normal
+}
+.breakpoint-tablet #letter-from-the-editor h2, .ie-legacy #letter-from-the-editor h2 {
+	margin: 30px auto 28px;
+	font-size: 48px;
+	font-weight: 400;
+	line-height: 1.2;
+	max-width: 615px;
+}
+#letter-from-the-editor #editor-avatar {
+	background: url(sprite.png) no-repeat -462px -363px;
+	width: 75px;
+	height: 75px;
+	display: block;
+	margin: 0 auto 19px
+}
+.breakpoint-retina #letter-from-the-editor #editor-avatar {
+	background: url("https://s.wsj.net/guidedtour/_images/letter.png") no-repeat -30px 0;
+	background-size: 136px
+}
+#letter-from-the-editor #sign-off {
+	margin: .5em auto 25px
+}
+.breakpoint-tablet #letter-from-the-editor #sign-off {
+	margin: .5em auto -.2em
+}
+#letter-from-the-editor #editor-signature {
+	background: url(letter.png)no-repeat 0 -122px;
+	background-size: 199px;
+	font: 0/0 a;
+	text-shadow: none;
+	color: transparent;
+	height: 65px;
+	display: block;
+}
+.no-svg #letter-from-the-editor #editor-signature, .no-backgroundsize #letter-from-the-editor #editor-signature {
+	background: url(sprite.png) no-repeat -314px -262px
+}
+#letter-from-the-editor p {
+	color: #666;
+	font-size: 15px;
+	font-weight: 400;
+	line-height: 1.53;
+	max-width: 80%;
+	margin: .5em auto 1.5em;
+}
+#letter-from-the-editor p .breakpoint-small-tablet {
+	max-width: 462px
+}
+.breakpoint-tablet #letter-from-the-editor p, .ie-legacy #letter-from-the-editor p {
+	font-size: 18px;
+	max-width: 615px
+}
+#letter-from-the-editor p.desktop {
+	display: none
+}
+.breakpoint-small-tablet #letter-from-the-editor p.desktop, .breakpoint-tablet #letter-from-the-editor p.desktop {
+	display: block
+}
+.showcase-wrapper {
+	overflow: auto
+}
+.showcase-wrapper .info {
+	max-width: 80%;
+	margin: 0 auto
+}
+.breakpoint-tablet .showcase-wrapper .info {
+	max-width: 470px
+}
+.breakpoint-desktop .showcase-wrapper .info, .ie-legacy .showcase-wrapper .info {
+	max-width: 620px
+}
+.showcase-wrapper .info h2 {
+	font-family: B3GoudyOldStyle, Georgia, serif;
+	font-style: normal;
+	text-transform: none;
+	font-size: 28px;
+	font-weight: 400;
+	line-height: 1.07;
+	color: #333;
+	margin: 0 auto 15px;
+	letter-spacing: 0
+}
+.ie-legacy .showcase-wrapper .info h2 {
+	font-family: Georgia, Times, serif !important;
+	font-style: normal
+}
+.dark .showcase-wrapper .info h2 {
+	color: #FFF
+}
+.breakpoint-desktop .showcase-wrapper .info h2, .ie-legacy .showcase-wrapper .info h2 {
+	font-size: 48px;
+	font-weight: 400;
+	line-height: 1.2
+}
+.showcase-wrapper .info p {
+	font-family: Theinhardt, Helvetica, sans-serif;
+	font-style: normal;
+	color: #999;
+	font-size: 16px;
+	font-weight: 100;
+	line-height: 1.5;
+	margin: 15px 0 18px
+}
+.ie-legacy .showcase-wrapper .info p {
+	font-family: Helvetica, Arial, sans-serif !important;
+	font-style: normal
+}
+.dark .showcase-wrapper .info p {
+	color: #BBB
+}
+.breakpoint-desktop .showcase-wrapper .info p, .ie-legacy .showcase-wrapper .info p {
+	font-size: 18px;
+	line-height: 1.556
+}
+.showcase-wrapper .elements {
+	position: relative;
+	overflow: hidden
+}
+.showcase-wrapper .device {
+	display: block;
+	position: absolute;
+	opacity: 0;
+	-webkit-transition: all 1s;
+	transition: all 1s
+}
+.breakpoint-tablet .showcase-wrapper .device {
+	bottom: 0
+}
+.showcase-wrapper .device.phone {
+	background: url("https://s.wsj.net/guidedtour/_images/devices/phone-large.svg") no-repeat 0 0;
+	background-size: 100%;
+	width: 102px;
+	height: 210px
+}
+.showcase-wrapper .device.phone .screen {
+	top: 26px;
+	left: 7px;
+	width: 89px;
+	height: 158px
+}
+.breakpoint-small-tablet .showcase-wrapper .device.phone {
+	width: 139px;
+	height: 285px
+}
+.breakpoint-small-tablet .showcase-wrapper .device.phone .screen {
+	top: 36px;
+	left: 9px;
+	width: 121px;
+	height: 213px
+}
+.breakpoint-small-tablet .showcase-wrapper .device.phone .screen video {
+	width: 121px;
+	height: 213px
+}
+.breakpoint-tablet .showcase-wrapper .device.phone {
+	background: url("https://s.wsj.net/guidedtour/_images/devices/phone.svg") no-repeat 0 0;
+	width: 68px;
+	height: 140px
+}
+.breakpoint-tablet .showcase-wrapper .device.phone .screen {
+	top: 17px;
+	left: 4px;
+	width: 60px;
+	height: 106px
+}
+.breakpoint-desktop .showcase-wrapper .device.phone {
+	width: 105px;
+	height: 213px
+}
+.breakpoint-desktop .showcase-wrapper .device.phone .screen {
+	top: 28px;
+	left: 8px;
+	width: 88px;
+	height: 158px
+}
+.breakpoint-widescreen .showcase-wrapper .device.phone {
+	width: 121px;
+	height: 246px
+}
+.breakpoint-widescreen .showcase-wrapper .device.phone .screen {
+	top: 30px;
+	left: 8px;
+	width: 104px;
+	height: 186px
+}
+.no-svg .showcase-wrapper .device.phone {
+	background: url(sprite.png) no-repeat -1088px -16px;
+	width: 122px;
+	height: 250px
+}
+.no-svg .showcase-wrapper .device.phone .screen {
+	top: 30px;
+	left: 8px;
+	width: 106px;
+	height: 188px
+}
+.showcase-wrapper .device.phone-large {
+	background: url("https://s.wsj.net/guidedtour/_images/devices/phone-large.svg") no-repeat 0 0;
+	background-size: 100%
+}
+.breakpoint-phone .showcase-wrapper .device.phone-large {
+	background: url("https://s.wsj.net/guidedtour/_images/devices/phone.svg") no-repeat 0 0;
+	width: 103px;
+	height: 210px
+}
+.breakpoint-phone .showcase-wrapper .device.phone-large .screen {
+	top: 26px;
+	left: 7px;
+	width: 89px;
+	height: 158px
+}
+.breakpoint-small-tablet .showcase-wrapper .device.phone-large {
+	width: 139px;
+	height: 285px
+}
+.breakpoint-small-tablet .showcase-wrapper .device.phone-large .screen {
+	top: 36px;
+	left: 9px;
+	width: 121px;
+	height: 213px
+}
+.breakpoint-small-tablet .showcase-wrapper .device.phone-large .screen video {
+	width: 121px;
+	height: 213px
+}
+.breakpoint-tablet .showcase-wrapper .device.phone-large {
+	width: 99px;
+	height: 203px
+}
+.breakpoint-tablet .showcase-wrapper .device.phone-large .screen {
+	top: 25px;
+	left: 6px;
+	width: 87px;
+	height: 153px
+}
+.breakpoint-desktop .showcase-wrapper .device.phone-large {
+	width: 150px;
+	height: 307px
+}
+.breakpoint-desktop .showcase-wrapper .device.phone-large .screen {
+	top: 38px;
+	left: 10px;
+	width: 130px;
+	height: 231px
+}
+.breakpoint-widescreen .showcase-wrapper .device.phone-large {
+	width: 176px;
+	height: 360px
+}
+.breakpoint-widescreen .showcase-wrapper .device.phone-large .screen {
+	top: 44px;
+	left: 12px;
+	width: 152px;
+	height: 271px
+}
+.no-svg .showcase-wrapper .device.phone-large {
+	background: url(sprite.png) no-repeat -1233px -12px;
+	width: 178px;
+	height: 362px
+}
+.no-svg .showcase-wrapper .device.phone-large .screen {
+	top: 44px;
+	left: 12px;
+	width: 153px;
+	height: 273px
+}
+.showcase-wrapper .device.tablet {
+	background: url("https://s.wsj.net/guidedtour/_images/devices/tablet.svg") no-repeat 0 0;
+	background-size: 100%;
+	width: 148px;
+	height: 210px
+}
+.showcase-wrapper .device.tablet .screen {
+	top: 19px;
+	left: 10px;
+	width: 128px;
+	height: 171px
+}
+.breakpoint-small-tablet .showcase-wrapper .device.tablet {
+	width: 200px;
+	height: 285px
+}
+.breakpoint-small-tablet .showcase-wrapper .device.tablet .screen {
+	top: 28px;
+	left: 13px;
+	width: 173px;
+	height: 230px
+}
+.breakpoint-tablet .showcase-wrapper .device.tablet {
+	width: 143px;
+	height: 203px
+}
+.breakpoint-tablet .showcase-wrapper .device.tablet .screen {
+	top: 19px;
+	left: 9px;
+	width: 125px;
+	height: 165px
+}
+.breakpoint-desktop .showcase-wrapper .device.tablet {
+	width: 216px;
+	height: 307px
+}
+.breakpoint-desktop .showcase-wrapper .device.tablet .screen {
+	top: 29px;
+	left: 15px;
+	width: 186px;
+	height: 247px
+}
+.breakpoint-widescreen .showcase-wrapper .device.tablet {
+	width: 254px;
+	height: 360px
+}
+.breakpoint-widescreen .showcase-wrapper .device.tablet .screen {
+	top: 33px;
+	left: 17px;
+	width: 220px;
+	height: 292px
+}
+.no-svg .showcase-wrapper .device.tablet {
+	background: url(sprite.png) no-repeat -1167px -418px;
+	width: 255px;
+	height: 361px
+}
+.no-svg .showcase-wrapper .device.tablet .screen {
+	top: 33px;
+	left: 17px;
+	width: 222px;
+	height: 294px
+}
+.showcase-wrapper .device.tablet-landscape {
+	background: url("https://s.wsj.net/guidedtour/_images/devices/tablet-landscape.svg") no-repeat 0 0;
+	background-size: 100%;
+	width: 210px;
+	height: 148px
+}
+.showcase-wrapper .device.tablet-landscape .screen {
+	top: 10px;
+	left: 19px;
+	width: 172px;
+	height: 128px
+}
+.breakpoint-small-tablet .showcase-wrapper .device.tablet-landscape {
+	width: 285px;
+	height: 200px
+}
+.breakpoint-small-tablet .showcase-wrapper .device.tablet-landscape .screen {
+	top: 13px;
+	left: 28px;
+	width: 230px;
+	height: 173px
+}
+.breakpoint-tablet .showcase-wrapper .device.tablet-landscape {
+	width: 203px;
+	height: 142px
+}
+.breakpoint-tablet .showcase-wrapper .device.tablet-landscape .screen {
+	top: 9px;
+	left: 20px;
+	width: 164px;
+	height: 123px
+}
+.breakpoint-desktop .showcase-wrapper .device.tablet-landscape {
+	width: 307px;
+	height: 216px
+}
+.breakpoint-desktop .showcase-wrapper .device.tablet-landscape .screen {
+	top: 15px;
+	left: 28px;
+	width: 250px;
+	height: 187px
+}
+.breakpoint-widescreen .showcase-wrapper .device.tablet-landscape {
+	width: 360px;
+	height: 253px
+}
+.breakpoint-widescreen .showcase-wrapper .device.tablet-landscape .screen {
+	top: 17px;
+	left: 33px;
+	width: 292px;
+	height: 220px
+}
+.no-svg .showcase-wrapper .device.tablet-landscape {
+	background: url(sprite.png) no-repeat -672px -16px;
+	width: 362px;
+	height: 254px
+}
+.no-svg .showcase-wrapper .device.tablet-landscape .screen {
+	top: 17px;
+	left: 33px;
+	width: 295px;
+	height: 221px
+}
+.showcase-wrapper .device.laptop {
+	background: url("https://s.wsj.net/guidedtour/_images/devices/laptop.svg") no-repeat 0 0;
+	background-size: 100%;
+	width: 300px;
+	height: 170px
+}
+.showcase-wrapper .device.laptop .screen {
+	top: 12px;
+	left: 41px;
+	width: 218px;
+	height: 138px
+}
+.breakpoint-small-tablet .showcase-wrapper .device.laptop {
+	width: 460px;
+	height: 262px
+}
+.breakpoint-small-tablet .showcase-wrapper .device.laptop .screen {
+	top: 19px;
+	left: 62px;
+	width: 336px;
+	height: 212px
+}
+.breakpoint-tablet .showcase-wrapper .device.laptop {
+	width: 436px;
+	height: 248px
+}
+.breakpoint-tablet .showcase-wrapper .device.laptop .screen {
+	top: 18px;
+	left: 60px;
+	width: 317px;
+	height: 201px
+}
+.breakpoint-desktop .showcase-wrapper .device.laptop {
+	width: 660px;
+	height: 376px
+}
+.breakpoint-desktop .showcase-wrapper .device.laptop .screen {
+	top: 27px;
+	left: 90px;
+	width: 481px;
+	height: 305px
+}
+.breakpoint-widescreen .showcase-wrapper .device.laptop {
+	width: 776px;
+	height: 442px
+}
+.breakpoint-widescreen .showcase-wrapper .device.laptop .screen {
+	top: 32px;
+	left: 105px;
+	width: 565px;
+	height: 358px
+}
+.no-svg .showcase-wrapper .device.laptop {
+	background: url(sprite.png) no-repeat -645px -1042px;
+	width: 777px;
+	height: 443px
+}
+.no-svg .showcase-wrapper .device.laptop .screen {
+	top: 32px;
+	left: 105px;
+	width: 567px;
+	height: 359px
+}
+.showcase-wrapper .screen {
+	position: absolute;
+	z-index: 2
+}
+.showcase-wrapper .browser {
+	background: url("https://s.wsj.net/guidedtour/_images/devices/browser.svg") no-repeat 0 0;
+	background-size: 100%;
+	position: relative;
+	-webkit-transition: all .75s ease-in;
+	transition: all .75s ease-in;
+	width: 300px;
+	height: 156px;
+	margin: 0 auto
+}
+.breakpoint-small-tablet .showcase-wrapper .browser {
+	width: 460px;
+	height: 226px
+}
+.breakpoint-tablet .showcase-wrapper .browser {
+	width: 620px;
+	height: 303px
+}
+.breakpoint-desktop .showcase-wrapper .browser {
+	width: 940px;
+	height: 460px
+}
+.breakpoint-widescreen .showcase-wrapper .browser {
+	width: 1100px;
+	height: 538px
+}
+.no-svg .showcase-wrapper .browser {
+	background: url(sprite.png) no-repeat -9px -478px;
+	width: 1101px;
+	height: 539px
+}
+#showcase-1, #new-design {
+	padding: 70px 0 70px
+}
+
+#showcase-1, #opinion {
+	padding: 70px 0 70px
+}
+
+.breakpoint-desktop #showcase-1, .breakpoint-desktop #new-design {
+	padding: 70px 0 70px
+}
+
+.breakpoint-desktop #showcase-1, .breakpoint-desktop #opinion {
+	padding: 70px 0 70px
+}
+#showcase-1 .elements, #new-design .elements {
+	padding-top: 30px
+}
+.breakpoint-phone #showcase-1 .elements, .breakpoint-phone #new-design .elements {
+	height: 620px;
+	width: 300px;
+	margin: 0 auto
+}
+.breakpoint-small-tablet #showcase-1 .elements, .breakpoint-small-tablet #new-design .elements {
+	height: 854px;
+	width: 460px;
+	margin: 0 auto
+}
+.breakpoint-tablet #showcase-1 .elements, .breakpoint-tablet #new-design .elements {
+	height: 249px
+}
+.breakpoint-desktop #showcase-1 .elements, .breakpoint-desktop #new-design .elements {
+	height: 373px;
+	padding-top: 50px
+}
+.breakpoint-widescreen #showcase-1 .elements, .ie-legacy #showcase-1 .elements, .breakpoint-widescreen #new-design .elements, .ie-legacy #new-design .elements {
+	height: 442px;
+	padding-top: 50px
+}
+#showcase-1 .phone, #new-design .phone {
+	z-index: 5
+}
+#showcase-1 .phone .screen, #new-design .phone .screen {
+	z-index: 6
+}
+.breakpoint-phone #showcase-1 .phone, .breakpoint-phone #new-design .phone {
+	right: -190px;
+	top: 238px
+}
+.breakpoint-small-tablet #showcase-1 .phone, .breakpoint-small-tablet #new-design .phone {
+	right: -190px;
+	top: 343px
+}
+.breakpoint-tablet #showcase-1 .phone, .breakpoint-tablet #new-design .phone {
+	left: -390px
+}
+.breakpoint-desktop #showcase-1 .phone, .breakpoint-desktop #new-design .phone {
+	left: -390px
+}
+#showcase-1 .phone .breakpoint-widescreen, #new-design .phone .breakpoint-widescreen {
+	left: -290px
+}
+.ie-legacy #showcase-1 .phone, .ie-legacy #new-design .phone {
+	left: 80px;
+	bottom: 0
+}
+#showcase-1 .tablet, #new-design .tablet {
+	z-index: 3
+}
+#showcase-1 .tablet .screen, #new-design .tablet .screen {
+	z-index: 4
+}
+.breakpoint-phone #showcase-1 .tablet, .breakpoint-phone #new-design .tablet {
+	left: -120px;
+	top: 238px
+}
+.breakpoint-small-tablet #showcase-1 .tablet, .breakpoint-small-tablet #new-design .tablet {
+	left: -120px;
+	top: 343px
+}
+.breakpoint-tablet #showcase-1 .tablet, .breakpoint-tablet #new-design .tablet {
+	left: 120px
+}
+.breakpoint-desktop #showcase-1 .tablet, .breakpoint-desktop #new-design .tablet {
+	left: 120px
+}
+.breakpoint-widescreen #showcase-1 .tablet, .ie-legacy #showcase-1 .tablet, .breakpoint-widescreen #new-design .tablet, .ie-legacy #new-design .tablet {
+	left: 20px
+}
+.ie-legacy #showcase-1 .tablet, .ie-legacy #new-design .tablet {
+	left: 171px;
+	bottom: 0
+}
+#showcase-1 .laptop, #new-design .laptop {
+	z-index: 1
+}
+#showcase-1 .laptop .screen, #new-design .laptop .screen {
+	z-index: 2
+}
+.breakpoint-phone #showcase-1 .laptop, .breakpoint-phone #new-design .laptop {
+	left: 0
+}
+.breakpoint-small-tablet #showcase-1 .laptop, .breakpoint-small-tablet #new-design .laptop {
+	left: 0
+}
+.breakpoint-tablet #showcase-1 .laptop, .breakpoint-tablet #new-design .laptop {
+	left: 280px
+}
+.breakpoint-widescreen #showcase-1 .laptop, .breakpoint-widescreen #new-design .laptop {
+	left: 280px
+}
+.ie-legacy #showcase-1 .laptop, .ie-legacy #new-design .laptop {
+	left: 280px;
+	bottom: 0
+}
+#showcase-1 .tablet-landscape, #new-design .tablet-landscape {
+	z-index: 3
+}
+#showcase-1 .tablet-landscape .screen, #new-design .tablet-landscape .screen {
+	z-index: 4
+}
+.breakpoint-phone #showcase-1 .tablet-landscape, .breakpoint-phone #new-design .tablet-landscape {
+	left: 45px;
+	top: 486px
+}
+.breakpoint-small-tablet #showcase-1 .tablet-landscape, .breakpoint-small-tablet #new-design .tablet-landscape {
+	left: 45px;
+	top: 678px
+}
+.breakpoint-tablet #showcase-1 .tablet-landscape, .breakpoint-tablet #new-design .tablet-landscape {
+	right: -130px
+}
+.breakpoint-widescreen #showcase-1 .tablet-landscape, .breakpoint-widescreen #new-design .tablet-landscape {
+	right: -20px
+}
+.ie-legacy #showcase-1 .tablet-landscape, .ie-legacy #new-design .tablet-landscape {
+	right: 80px;
+	bottom: 0
+}
+.breakpoint-phone #showcase-1.come-in .device, .breakpoint-phone #new-design.come-in .device {
+	opacity: 1
+}
+.breakpoint-phone #showcase-1.come-in .phone, .breakpoint-phone #new-design.come-in .phone {
+	right: 10px
+}
+.breakpoint-phone #showcase-1.come-in .tablet, .breakpoint-phone #new-design.come-in .tablet {
+	left: 10px
+}
+.breakpoint-phone #showcase-1.come-in .laptop, .breakpoint-phone #new-design.come-in .laptop {
+	left: 0
+}
+.breakpoint-phone #showcase-1.come-in .tablet-landscape, .breakpoint-phone #new-design.come-in .tablet-landscape {
+	left: 45px
+}
+.breakpoint-small-tablet #showcase-1.come-in .device, .breakpoint-small-tablet #new-design.come-in .device {
+	opacity: 1
+}
+.breakpoint-small-tablet #showcase-1.come-in .phone, .breakpoint-small-tablet #new-design.come-in .phone {
+	right: 33px
+}
+.breakpoint-small-tablet #showcase-1.come-in .tablet, .breakpoint-small-tablet #new-design.come-in .tablet {
+	left: 33px
+}
+.breakpoint-small-tablet #showcase-1.come-in .laptop, .breakpoint-small-tablet #new-design.come-in .laptop {
+	left: 0
+}
+.breakpoint-small-tablet #showcase-1.come-in .tablet-landscape, .breakpoint-small-tablet #new-design.come-in .tablet-landscape {
+	left: 85px
+}
+.breakpoint-tablet #showcase-1.come-in .device, .breakpoint-tablet #new-design.come-in .device {
+	opacity: 1
+}
+.breakpoint-tablet #showcase-1.come-in .phone, .breakpoint-tablet #new-design.come-in .phone {
+	left: 0
+}
+.breakpoint-tablet #showcase-1.come-in .tablet, .breakpoint-tablet #new-design.come-in .tablet {
+	left: 51px
+}
+.breakpoint-tablet #showcase-1.come-in .laptop, .breakpoint-tablet #new-design.come-in .laptop {
+	left: 110px
+}
+.breakpoint-tablet #showcase-1.come-in .tablet-landscape, .breakpoint-tablet #new-design.come-in .tablet-landscape {
+	right: 0
+}
+.breakpoint-desktop #showcase-1.come-in .device, .breakpoint-desktop #new-design.come-in .device {
+	opacity: 1
+}
+.breakpoint-desktop #showcase-1.come-in .phone, .breakpoint-desktop #new-design.come-in .phone {
+	left: 0
+}
+.breakpoint-desktop #showcase-1.come-in .tablet, .breakpoint-desktop #new-design.come-in .tablet {
+	left: 71px
+}
+.breakpoint-desktop #showcase-1.come-in .laptop, .breakpoint-desktop #new-design.come-in .laptop {
+	left: 160px
+}
+.breakpoint-desktop #showcase-1.come-in .tablet-landscape, .breakpoint-desktop #new-design.come-in .tablet-landscape {
+	right: 0
+}
+.breakpoint-widescreen #showcase-1.come-in .device, .breakpoint-widescreen #new-design.come-in .device {
+	opacity: 1
+}
+.breakpoint-widescreen #showcase-1.come-in .phone, .breakpoint-widescreen #new-design.come-in .phone {
+	left: 80px
+}
+.breakpoint-widescreen #showcase-1.come-in .tablet, .breakpoint-widescreen #new-design.come-in .tablet {
+	left: 171px
+}
+.breakpoint-widescreen #showcase-1.come-in .laptop, .breakpoint-widescreen #new-design.come-in .laptop {
+	left: 280px
+}
+.breakpoint-widescreen #showcase-1.come-in .tablet-landscape, .breakpoint-widescreen #new-design.come-in .tablet-landscape {
+	right: 80px
+}
+#showcase-1 {
+	padding: 80px 0 50px;
+	margin-top: -50px
+}
+.breakpoint-tablet #showcase-1 {
+	padding: 100px 0 120px;
+	margin-top: -50px
+}
+.touch #showcase-1 .phone .screen {
+	background: url(1-4u@2x.jpg) no-repeat 0 0;
+	background-size: cover
+}
+.touch #showcase-1 .tablet .screen {
+	background: url(1-8u@2x.jpg) no-repeat 0 0;
+	background-size: cover
+}
+.touch #showcase-1 .laptop .screen {
+	background: url(1-16u@2x.jpg) no-repeat 0 0;
+	background-size: cover
+}
+.touch #showcase-1 .tablet-landscape .screen {
+	background: url(1-12u@2x.jpg) no-repeat 0 0;
+	background-size: cover
+}
+.ie-legacy #showcase-1 .phone .screen {
+	background: url(1-4u.jpg) no-repeat 0 0
+}
+.ie-legacy #showcase-1 .tablet .screen {
+	background: url(1-8u.jpg) no-repeat 0 0
+}
+.ie-legacy #showcase-1 .laptop .screen {
+	background: url(1-16u.jpg) no-repeat 0 0
+}
+.ie-legacy #showcase-1 .tablet-landscape .screen {
+	background: url(1-12u.jpg) no-repeat 0 0
+}
+#showcase-2 {
+	padding: 50px 0 0
+}
+#showcase-2 .elements {
+	overflow: hidden;
+	padding-top: 30px
+}
+.breakpoint-phone #showcase-2 .elements {
+	height: 470px;
+	width: 300px;
+	margin: 0 auto
+}
+.breakpoint-small-tablet #showcase-2 .elements {
+	height: 653px;
+	width: 460px;
+	margin: 0 auto
+}
+.breakpoint-tablet #showcase-2 .elements {
+	height: 202px
+}
+.breakpoint-desktop #showcase-2 .elements {
+	height: 307px;
+	padding-top: 50px
+}
+.breakpoint-widescreen #showcase-2 .elements, .ie-legacy #showcase-2 .elements {
+	height: 360px;
+	padding-top: 50px
+}
+#showcase-2 .phone-large {
+	z-index: 5
+}
+#showcase-2 .phone-large .screen {
+	z-index: 6
+}
+.breakpoint-phone #showcase-2 .phone-large {
+	right: -190px;
+	top: 238px
+}
+.breakpoint-small-tablet #showcase-2 .phone-large {
+	right: -190px;
+	top: 343px
+}
+.breakpoint-tablet #showcase-2 .phone-large {
+	left: auto;
+	right: 0
+}
+.breakpoint-desktop #showcase-2 .phone-large {
+	left: auto;
+	right: 0
+}
+.breakpoint-widescreen #showcase-2 .phone-large, .ie-legacy #showcase-2 .phone-large {
+	left: auto;
+	right: 80px
+}
+#showcase-2 .tablet {
+	left: 732px;
+	z-index: 3
+}
+#showcase-2 .tablet .screen {
+	z-index: 4
+}
+.breakpoint-phone #showcase-2 .tablet {
+	left: -120px;
+	top: 238px
+}
+.breakpoint-small-tablet #showcase-2 .tablet {
+	left: -120px;
+	top: 343px
+}
+.breakpoint-tablet #showcase-2 .tablet {
+	left: 369px
+}
+.breakpoint-desktop #showcase-2 .tablet {
+	left: 559px
+}
+.breakpoint-widescreen #showcase-2 .tablet, .ie-legacy #showcase-2 .tablet {
+	left: 732px
+}
+#showcase-2 .laptop {
+	z-index: 1
+}
+.breakpoint-tablet #showcase-2 .laptop {
+	left: 0;
+	width: 356px;
+	height: 203px
+}
+.breakpoint-tablet #showcase-2 .laptop .screen {
+	top: 15px;
+	left: 48px;
+	width: 260px;
+	height: 164px
+}
+.breakpoint-desktop #showcase-2 .laptop {
+	left: 0;
+	width: 540px;
+	height: 307px
+}
+.breakpoint-desktop #showcase-2 .laptop .screen {
+	top: 22px;
+	left: 73px;
+	width: 394px;
+	height: 249px
+}
+.breakpoint-widescreen #showcase-2 .laptop, .ie-legacy #showcase-2 .laptop {
+	left: 80px;
+	width: 632px;
+	height: 360px
+}
+.breakpoint-widescreen #showcase-2 .laptop .screen, .ie-legacy #showcase-2 .laptop .screen {
+	z-index: 2;
+	top: 26px;
+	left: 86px;
+	width: 461px;
+	height: 292px
+}
+.no-svg #showcase-2 .laptop {
+	background: url(sprite.png) no-repeat -9px -1039px;
+	width: 633px;
+	height: 361px
+}
+#showcase-2 .phone-large .screen {
+	background: url(2-4u@2x.jpg) no-repeat 0 0;
+	background-size: cover
+}
+#showcase-2 .tablet .screen {
+	background: url(2-8u@2x.jpg) no-repeat 0 0;
+	background-size: cover
+}
+#showcase-2 .laptop .screen {
+	background: url(2-16u@2x.jpg) no-repeat 0 0;
+	background-size: cover
+}
+.ie-legacy #showcase-2 .phone-large .screen {
+	background: url(2-4u.jpg) no-repeat 0 0
+}
+.ie-legacy #showcase-2 .tablet .screen {
+	background: url(2-8u.jpg) no-repeat 0 0
+}
+.ie-legacy #showcase-2 .laptop .screen {
+	background: url(2-16u.jpg) no-repeat 0 0
+}
+.breakpoint-phone #showcase-2.come-in .device {
+	opacity: 1
+}
+.breakpoint-phone #showcase-2.come-in .phone-large {
+	right: 10px
+}
+.breakpoint-phone #showcase-2.come-in .tablet {
+	left: 10px
+}
+.breakpoint-phone #showcase-2.come-in .laptop {
+	left: 0
+}
+.breakpoint-phone #showcase-2.come-in .screen {
+	background-position: bottom center
+}
+.breakpoint-small-tablet #showcase-2.come-in .device {
+	opacity: 1
+}
+.breakpoint-small-tablet #showcase-2.come-in .phone-large {
+	right: 33px
+}
+.breakpoint-small-tablet #showcase-2.come-in .tablet {
+	left: 33px
+}
+.breakpoint-small-tablet #showcase-2.come-in .laptop {
+	left: 0
+}
+.breakpoint-small-tablet #showcase-2.come-in .screen {
+	background-position: bottom center
+}
+#showcase-2.come-in .device {
+	opacity: 1
+}
+#showcase-3, #showcase-4 {
+	padding: 70px 0 70px
+}
+#showcase-3 .elements, #showcase-4 .elements {
+	padding-top: 30px
+}
+.breakpoint-phone #showcase-3 .elements, .breakpoint-phone #showcase-4 .elements {
+	width: 300px;
+	margin: 0 auto
+}
+.breakpoint-small-tablet #showcase-3 .elements, .breakpoint-small-tablet #showcase-4 .elements {
+	width: 460px;
+	margin: 0 auto
+}
+.breakpoint-desktop #showcase-3 .elements, .breakpoint-desktop #showcase-4 .elements {
+	padding-top: 50px
+}
+#showcase-3 .browser, #showcase-4 .browser {
+	opacity: 0
+}
+#showcase-3 .browser .screen, #showcase-4 .browser .screen {
+	left: 1px;
+	top: 9px;
+	width: 298px;
+	height: 137px
+}
+#showcase-3 .browser .screen video, #showcase-4 .browser .screen video {
+	height: 137px
+}
+.breakpoint-small-tablet #showcase-3 .browser .screen, .breakpoint-small-tablet #showcase-4 .browser .screen {
+	top: 14px;
+	width: 458px;
+	height: 211px
+}
+.breakpoint-small-tablet #showcase-3 .browser .screen video, .breakpoint-small-tablet #showcase-4 .browser .screen video {
+	height: 211px
+}
+.breakpoint-tablet #showcase-3 .browser .screen, .breakpoint-tablet #showcase-4 .browser .screen {
+	top: 18px;
+	left: 2px;
+	width: 616px;
+	height: 284px
+}
+.breakpoint-tablet #showcase-3 .browser .screen video, .breakpoint-tablet #showcase-4 .browser .screen video {
+	height: 284px
+}
+.breakpoint-desktop #showcase-3 .browser .screen, .breakpoint-desktop #showcase-4 .browser .screen {
+	top: 27px;
+	left: 2px;
+	width: 936px;
+	height: 431px
+}
+.breakpoint-desktop #showcase-3 .browser .screen video, .breakpoint-desktop #showcase-4 .browser .screen video {
+	height: 431px
+}
+.breakpoint-widescreen #showcase-3 .browser .screen, .breakpoint-widescreen #showcase-4 .browser .screen {
+	top: 32px;
+	left: 3px;
+	width: 1094px;
+	height: 504px
+}
+.breakpoint-widescreen #showcase-3 .browser .screen video, .breakpoint-widescreen #showcase-4 .browser .screen video {
+	height: 504px
+}
+.ie-legacy #showcase-3 .browser .screen, .ie-legacy #showcase-4 .browser .screen {
+	top: 31px;
+	left: 2px;
+	background-size: 1100px;
+	width: 1098px;
+	height: 507px
+}
+#showcase-3.come-in .browser, #showcase-4.come-in .browser {
+	opacity: 1
+}
+#showcase-3.come-in .browser .screen, #showcase-4.come-in .browser .screen {
+	background-position: bottom center
+}
+.breakpoint-phone #showcase-3, .breakpoint-small-tablet #showcase-3 {
+	padding: 44px 0 50px
+}
+.ie-legacy #showcase-3 .browser .screen {
+	background: url(3-16u.jpg) no-repeat 0 0
+}
+.ie-legacy #showcase-4 .browser .screen {
+	background: url(4-16u.jpg) no-repeat 0 0
+}
+#new-design h2 br {
+	display: none
+}
+.breakpoint-tablet #new-design h2 br {
+	display: block
+}
+#new-design .phone .screen {
+	background: url(https://d1ax1i5f2y3x71.cloudfront.net/items/1u1f132W3i14160T2y0R/Image%202017-08-31%20at%204.59.07%20PM.png) no-repeat 0 0;
+	background-size: contain
+}
+#new-design .tablet .screen {
+	background: url(https://d1ax1i5f2y3x71.cloudfront.net/items/1945242w3J0h32012U2f/Screen%20Shot%202017-08-31%20at%204.57.14%20PM.png) no-repeat 0 0;
+	background-size: inherit
+}
+#new-design .laptop .screen {
+	background: url(https://d1ax1i5f2y3x71.cloudfront.net/items/0F390v243v0D3O0P1z0v/Image%202017-08-31%20at%204.52.33%20PM.png) no-repeat 0 0;
+	background-size: inherit
+}
+#new-design .tablet-landscape .screen {
+	background: url(https://d1ax1i5f2y3x71.cloudfront.net/items/2n3d283z0f3q1c123i3o/Image%202017-08-31%20at%205.01.24%20PM.png) no-repeat 0 0;
+	background-size: inherit
+}
+.ie-legacy #new-design .phone .screen {
+	background: url(https://d1ax1i5f2y3x71.cloudfront.net/items/1u1f132W3i14160T2y0R/Image%202017-08-31%20at%204.59.07%20PM.png) no-repeat 0 0
+}
+.ie-legacy #new-design .tablet .screen {
+	background: url(https://d1ax1i5f2y3x71.cloudfront.net/items/1945242w3J0h32012U2f/Screen%20Shot%202017-08-31%20at%204.57.14%20PM.png) no-repeat 0 0
+}
+.ie-legacy #new-design .laptop .screen {
+	background: url(https://d1ax1i5f2y3x71.cloudfront.net/items/0F390v243v0D3O0P1z0v/Image%202017-08-31%20at%204.52.33%20PM.png) no-repeat 0 0
+}
+.ie-legacy #new-design .tablet-landscape .screen {
+	background: url(https://d1ax1i5f2y3x71.cloudfront.net/items/2n3d283z0f3q1c123i3o/Image%202017-08-31%20at%205.01.24%20PM.png) no-repeat 0 0
+}
+#faq {
+	margin: 0 auto;
+	padding: 70px 10px 70px;
+	overflow: auto
+}
+.breakpoint-tablet #faq {
+	margin: 0 auto 0
+}
+#faq h2 {
+	color: #333;
+	font-family: B3GoudyOldStyle, Georgia, serif;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 48px;
+	line-height: 1.2;
+	margin: 0 0 40px
+}
+.ie-legacy #faq h2 {
+	font-family: Georgia, Times, serif !important;
+	font-style: normal
+}
+#faq .accordion {
+	font-family: Theinhardt, Helvetica, sans-serif;
+	font-style: normal;
+	font-weight: 400;
+	width: auto;
+	margin: 0;
+	padding: 0;
+	text-align: left;
+	border-bottom: 1px solid #CCC
+}
+.ie-legacy #faq .accordion {
+	font-family: Helvetica, Arial, sans-serif !important;
+	font-style: normal
+}
+#faq .accordion.left {
+	border-bottom: 0 none
+}
+.breakpoint-desktop #faq .accordion.left, .ie-legacy #faq .accordion.left {
+	border-bottom: 1px solid #CCC
+}
+#faq .accordion h3 {
+	border-top: 1px solid #CCC;
+	position: relative;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 1.444;
+	margin: 0
+}
+#faq .accordion h3 a {
+	display: block;
+	color: #333;
+	padding: 14px 20px 14px 0
+}
+#faq .accordion h3 span {
+	background: url(spritesheet.png) no-repeat -17px -296px;
+	position: absolute;
+	right: 0;
+	top: 50%;
+	-webkit-transform: translateY(-50%);
+	-ms-transform: translateY(-50%);
+	transform: translateY(-50%);
+	width: 9px;
+	height: 10px
+}
+.no-svg #faq .accordion h3 span {
+	background: url(sprite.png) no-repeat -19px -236px
+}
+.ie-legacy #faq .accordion h3 span {
+	top: 40%
+}
+#faq .accordion h3.active span {
+	background-position: -17px -412px
+}
+.no-svg #faq .accordion h3.active span {
+	background-position: -19px -323px
+}
+#faq .accordion .accordion-content {
+	margin: 0 0 14px;
+	padding: 0;
+	color: #999
+}
+#faq .accordion .accordion-content p {
+	margin: 0;
+	font-size: 16px;
+	line-height: 1.714
+}
+#faq .accordion .accordion-content a {
+	color: #333;
+	text-decoration: underline
+}
+#faq .accordion .accordion-content a:hover {
+	text-decoration: none
+}
+.breakpoint-desktop #faq .accordion {
+	width: 460px;
+	padding: 0;
+	float: left
+}
+.breakpoint-desktop #faq .accordion.left {
+	margin: 0 20px 0 0
+}
+.breakpoint-widescreen #faq .accordion, .ie-legacy #faq .accordion {
+	width: 460px;
+	padding: 0;
+	float: left
+}
+.breakpoint-widescreen #faq .accordion.left, .ie-legacy #faq .accordion.left {
+	margin: 0 20px 0 160px
+}
+#customer-service {
+	padding: 70px 10px 70px
+}
+
+#join-button {
+	padding: 0px
+}
+
+#customer-service h4 {
+	font-size: 16px;
+	line-height: 1.444;
+	color: #999;
+	margin: 0 auto
+}
+
+#customer-service a {
+    text-decoration: underline;
+	line-height: 1.444;
+	color: #999;
+	margin: 0 auto
+}
+.breakpoint-desktop #customer-service h4 {
+	font-size: 18px;
+	line-height: 1.555
+}
+#customer-service .button {
+	background: #1f3771;
+	color: #FFF;
+	padding: 15px 50px 15px;
+	font-family: Theinhardt, Helvetica, sans-serif;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 18px;
+	text-transform: uppercase;
+	text-decoration: none;
+	margin: 2em auto 0;
+	display: inline-block
+}
+
+#join-button .button {
+	background: #1f3771;
+	color: #FFF;
+	padding: 15px 50px 15px;
+	font-family: Theinhardt, Helvetica, sans-serif;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 18px;
+	text-transform: uppercase;
+	margin: 2em auto 0;
+	display: inline-block
+}
+.ie-legacy #customer-service .button {
+	font-family: Helvetica, Arial, sans-serif !important;
+	font-style: normal
+}
+#customer-service .button:hover {
+	color: #333;
+	background: #E5E5E5
+}
+
+#join-button .button:hover {
+	color: #333;
+	background: #E5E5E5
+}
+#footer {
+	background: #E5E5E5;
+	padding: 48px 0 18px;
+	line-height: 14px
+}
+.breakpoint-phone #footer {
+	padding: 51px 0 21px
+}
+#footer p {
+	font-family: Theinhardt, Helvetica, sans-serif;
+	font-style: normal;
+	color: #999;
+	font-size: 11px;
+	font-weight: 400;
+	line-height: 1.27
+}
+.ie-legacy #footer p {
+	font-family: Helvetica, Arial, sans-serif !important;
+	font-style: normal
+}
+.breakpoint-phone #footer p {
+	font-size: 9px;
+	line-height: 1.33
+}
+#footer a {
+	color: #666
+}
+#footer a:hover {
+	color: #999
+}
