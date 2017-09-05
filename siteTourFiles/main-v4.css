@@ -315,14 +315,14 @@ body video, body iframe {
 }
 #masthead h1 a {
 	display: block;
-	width: 280px;
+	width: 275px;
 	height: 28px;
-	background: url(https://d1ax1i5f2y3x71.cloudfront.net/items/0Z3e1N2m2h08470u092c/Image%202017-08-31%20at%204.19.37%20PM.png) no-repeat -10px -13px;
-	font: 0/0 a;
+	background: url(https://d1ax1i5f2y3x71.cloudfront.net/items/0Z3e1N2m2h08470u092c/Image%202017-08-31%20at%204.19.37%20PM.png) no-repeat -8px -9px;
+	background-size: 235px;	font: 0/0 a;
 	text-shadow: none;
 	color: transparent;
 	position: absolute;
-	top: 20px;
+	top: 19px;
 	left: 48%;
 	margin-left: -110px
 }
